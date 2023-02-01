@@ -2,7 +2,7 @@
 const { test, expect, chromium } = require('@playwright/test');
 const { HomePage } = require('../../pages/HomePage');
 let home;
-let testName = "Administration - Verify Company Profile";
+let testName = "Home Page - Verify Home Page";
 test.describe(testName, async () => {
   let page,context,browser;
   test.beforeAll(async () => {
