@@ -1,5 +1,5 @@
 {
-  "name": "prime-olo-test-automation",
+  "name": "playwright-test-automation-framework",
   "version": "1.0.0",
   "description": "Test automation code for prime online ordering",
   "main": "index.js",
