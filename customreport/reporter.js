@@ -65,7 +65,6 @@ class QcReporter {
     }
   
     async onEnd(result) {
-      /** let release = qCenterConstants.buildName==null?qCenterRelease:qCenterConstants.buildName;**/
       let msuite = {
         env: testConfigs().testEnv,
         duration: '',
