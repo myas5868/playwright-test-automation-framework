@@ -1,7 +1,7 @@
 // @ts-check
 import { test, expect } from '@playwright/test';
 let PostManService = require('../../services/PostmanService');
-let testName = "Administration - Verify Company Profile";
+let testName = "Success - Verify Success End Point";
 test.describe(testName, async () => {
   test.beforeAll(async () => {
   });
