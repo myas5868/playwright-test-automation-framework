@@ -4,7 +4,7 @@ const testConfigs = require('../test.config');
 let stack = [];
 let title;
 
-class QcReporter {
+class CustomReporter {
     async onBegin(config, suite) {
       console.log(`Starting the run with ${suite.allTests().length} tests`);
       title = suite.suites[0].suites[0].suites[0].title;
@@ -77,4 +77,4 @@ class QcReporter {
 
   }
   
-  module.exports = QcReporter;
+  module.exports = CustomReporter;
